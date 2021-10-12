@@ -15,12 +15,11 @@
   .FQ{
       color: orangered;
   }
-
-
-.cont {
-    height: 100%;
-    text-align: center;
+   .cont{
     margin-top: 150px;
+    text-align: center;
+    
+
 }
 
 body img {
