@@ -15,9 +15,9 @@ position: fixed;
   } */
   
    .cont{
-    margin-top: 150px;
-    text-align: right;
-    color: white;
+    margin-top: 50px;
+    text-align: left;
+    color: olivedrab;
     
 }
 
@@ -58,14 +58,19 @@ footer {
     font-size: x-large;
     align-self: center;
 }
-a{
+a:hover {
     color: red;
-    text-decoration: none;
-}
-a:hover{
     text-decoration: underline;
+
 }
+
 .one{
     position: relative;
     top: -150px;
+}
+
+.menu a, a:hover {
+    color: red;
+    text-decoration: underline;
+
 }
