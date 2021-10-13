@@ -38,7 +38,7 @@ else if (plate3.checked == true && breakFastFood3 > 0){
     console.log(breakFastFood3);
 }
 else if (plate4.checked == true && breakFastFood4 > 0){
-document.getElementById('first').innerHTML = personsName.value +" Chapati Beans is available. Please make payment"
+document.getElementById('first').innerHTML = personsName.value +" Bread, Sausage and Tea is available. Please make payment"
 console.log(breakFastFood4);
 breakFastFood4 --;
 console.log(breakFastFood4);
