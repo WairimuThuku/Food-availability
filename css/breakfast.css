@@ -7,8 +7,9 @@
 }
 
 body .one{
-         background-image: url("/image/WBC_7095.jpg");
-         height: 100vh;
+         background-image: url("/image/background-.jpg");
+         background-size: cover;
+         height: 190vh;
          padding: 20px 8%;
 }
 
@@ -19,14 +20,16 @@ table, th, td {
     border: 2px solid black;
   }
 table{
+    table-layout: auto;
     background-color: white;
-    width: 1200px;
-    height: 600px;
+    width: 800px;
+    height: 400px;
     border-collapse: collapse;
+    transform: translateY(5%);
 }
 th,td {
-    width: 2px;
-    height: 5px;
+    width: 20%;
+    height: -20%;
 }
 
 h3{
@@ -34,18 +37,48 @@ h3{
     color: black;
 }
 h2{
-    color: red;
+    color:red;
     text-align: center;
 }
 h1{
     text-align: center;
     color: red;
+    font-weight: 800;
+    font-size: 35px;
 }
 p{
-    color:red;
+    color: red;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
+    transform: translateY(80%);
 }
 header{
-    text-align: center;
+    text-align: left;
+}
+#centre{
+    position: relative;
+    left:20%
+}
+#image{
+    transform:translate(-110px, -20px);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+}
+.Menu, .About, .Reservation, .Contact{
+    font-size: x-large;
+    align-self: center;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+th{
+    color: red;
 }
