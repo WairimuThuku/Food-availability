@@ -1,0 +1,78 @@
+.topic {
+display: block;
+margin:0px;
+padding: 0px;
+position: fixed;
+}
+.cont{
+    margin-top: 50px;
+    text-align: left;
+    
+}
+
+.cont p {
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+body {
+    background-color: yellow;
+}
+footer {
+    margin-top: 10px;
+}
+.carousel{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.carousel-item img{
+    height: 100vh;
+}
+
+.intro{
+    position: relative;
+   margin-top: -400px;
+   text-align: center;
+   color: black;
+   font-weight: 700;
+   position: relative;
+   left: -250px;
+   
+}
+.footer{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    height: 60px;
+
+}
+.Menu, .About, .Reservation, .Contact{
+    font-size: x-large;
+    align-self: center;
+}
+#menu{
+    color: red;
+    text-decoration: none;
+}
+#Contact{
+    color: red;
+    text-decoration: none;
+}
+#About{
+    color: red;
+    text-decoration: none;
+}
+#Reservation{
+    color: red;
+    text-decoration: none;
+}
+
+.one{
+    position: relative;
+    top: -150px;
+}
+#About:hover, #Contact:hover, #menu:hover, #Reservation:hover{
+    text-decoration: underline;
+}
