@@ -6,7 +6,7 @@
     
 }
 
-body .one{
+body {
          background-image: url("/image/background-.jpg");
          background-size: cover;
          height: 190vh;
