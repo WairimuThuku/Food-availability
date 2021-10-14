@@ -1,0 +1,49 @@
+.page4{
+    background-image: url("food.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+}
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 1rem;
+    border: 1px white;
+    margin: 10px;
+    background-color: skyblue;
+}
+input{
+    border-radius: 1rem;
+    border: 1px white;
+    margin: 5px;
+    font-size: large;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    position: relative;
+    bottom: -200px;
+}
+.Menu, .About, .Reservation, .Contact{
+    font-size: x-large;
+    align-self: center;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    font-size: x-large;
+    font-weight: 400;
+}
