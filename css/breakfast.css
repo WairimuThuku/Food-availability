@@ -7,7 +7,7 @@
 }
 
 body {
-         background-image: url("/image/background-.jpg");
+         background-image: url("image/background-.jpg");
          background-size: cover;
          height: 190vh;
          padding: 20px 8%;
